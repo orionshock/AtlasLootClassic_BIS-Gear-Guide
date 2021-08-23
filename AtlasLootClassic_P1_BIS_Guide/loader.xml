@@ -1,0 +1,21 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+<Script file="data.lua"/>
+
+<Script file="Tank_Protection_Paladin_BIS.lua"/>
+<Script file="Healer_Holy_Paladin_BIS.lua"/>
+<Script file="DPS_Retribution_Paladin_BIS.lua"/>
+
+<Script file="Healer_Holy_Priest_BIS.lua"/>
+<Script file="DPS_Shadow_Priest_BIS.lua"/>
+
+<Script file="DPS_Rogue-BIS.lua"/>
+
+<Script file="DPS_Arcane_Mage_BIS.lua"/>
+<Script file="DPS_Fire_Mage_BIS.lua"/>
+<Script file="DPS_Frost_Mage_BIS.lua"/>
+
+<Script file="Tank_Protection_Warrior_BIS.lua"/>
+
+</Ui>

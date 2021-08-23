@@ -1,0 +1,15 @@
+## Interface: 20501
+## Author: Orionshock
+## Version: v2.3.1-bcc
+## Dependencies: AtlasLootClassic
+## LoadOnDemand: 1
+
+## Title: AtlasLootClassic |cFF0099FF[P1 PreBIS Guide from Wowhead]|r
+
+## X-Category: Map
+## X-License: GPL v2
+
+## X-AtlasLootClassic-LootModule: 1
+## X-AtlasLootClassic-ModuleName: P1 PreBIS [Wowhead]
+
+loader.xml

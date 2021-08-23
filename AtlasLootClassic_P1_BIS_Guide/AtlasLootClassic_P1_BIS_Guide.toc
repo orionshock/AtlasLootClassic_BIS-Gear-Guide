@@ -12,17 +12,4 @@
 ## X-AtlasLootClassic-LootModule: 1
 ## X-AtlasLootClassic-ModuleName: WoWHead Guides P1 Best In Slot
 
-data.lua
-
-Tank_Protection_Paladin_BIS.lua
-Healer_Holy_Paladin_BIS.lua
-DPS_Retribution_Paladin_BIS.lua
-
-Healer_Holy_Priest_BIS.lua
-DPS_Shadow_Priest_BIS.lua
-
-DPS_Arcane_Mage_BIS.lua
-DPS_Fire_Mage_BIS.lua
-DPS_Frost_Mage_BIS.lua
-
-Tank_Protection_Warrior_BIS.lua
+loader.xml
