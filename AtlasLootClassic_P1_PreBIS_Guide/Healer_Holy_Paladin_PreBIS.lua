@@ -21,9 +21,9 @@ local el_Gems = {	--Extra List : Gems
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01, "INV_MISC_DESECRATED_PLATEHELM", nil, "Meta Gem" },	{16,  },
+		{ 01, "INV_MISC_DESECRATED_PLATEHELM", nil, "Meta Gem" },
 		{ 02, 32867 },	{17, 32765 },
-		{ 04, "INV_MISC_GEM_01", nil, "All Other Gems"},	{19,  },
+		{ 04, "INV_MISC_GEM_01", nil, "All Other Gems"},
 		{ 05, 31087 },
 	}
 }

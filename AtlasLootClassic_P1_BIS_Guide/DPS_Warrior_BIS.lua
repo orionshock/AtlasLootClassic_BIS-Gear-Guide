@@ -48,18 +48,14 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
-		{ 02 , 34004 },
-		{ 03 , "INV_MISC_DESECRATED_PLATECHEST", nil, "Chest" },
-		{ 04 , 27960 },
-		{ 05 , "INV_MISC_DESECRATED_PLATEBRACER", nil, "Wrist" },
-		{ 06 , 27899 },
-		{ 07 , "INV_MISC_DESECRATED_PLATEGLOVES", nil, "Hands" },
-		{ 08 , 33995 },
-		{ 09 , "INV_MISC_DESECRATED_PLATEPANTS", nil, "Legs" },
-		{ 10 , 35554 },
-		{ 11 , "INV_MISC_DESECRATED_PLATEBOOTS", nil, "Feet" },
-		{ 12 , 34007 },
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },				
+		{ 02 , 34004 },				
+		{ 04 , "INV_MISC_DESECRATED_PLATECHEST", ni, "Chest" }, { 19 , "INV_MISC_DESECRATED_PLATEBRACER", nil, "Wrist" },
+		{ 05 , 27960 },	{ 20 , 27899 },
+		{ 07 , "INV_MISC_DESECRATED_PLATEPANTS", nil, "Legs" }, { 22 , "INV_MISC_DESECRATED_PLATEGLOVES", nil, "Hands" },
+		{ 08 , 35554 }, { 23 , 33995 },
+		{ 10 , "INV_MISC_DESECRATED_PLATEBOOTS", nil, "Feet" },				
+		{ 11 , 34007 },				
 	},
 }
 
@@ -70,10 +66,10 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	[NORMAL_DIFF] = {
 		{ 01, "INV_SWORD_65", nil, "Weapon Enchant"},
 		{ 02, 27984 },		
-		{ 03, "INV_SHIELD_30", nil, "Shield Enchant" }, 
-		{ 04, 34009 },
-		{ 05, "INV_WEAPON_BOW_07", nil, "Guns and Bows" },
-		{ 06, 30332 },
+		{ 04, "INV_SHIELD_30", nil, "Shield Enchant" }, 
+		{ 05, 34009 },
+		{ 07, "INV_WEAPON_BOW_07", nil, "Guns and Bows" },
+		{ 08, 30332 },
 	},
 }
 
