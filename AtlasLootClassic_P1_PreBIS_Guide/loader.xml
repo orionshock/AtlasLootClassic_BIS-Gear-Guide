@@ -3,19 +3,25 @@
 
 <Script file="data.lua"/>
 
+<!--Paladin-->
 <Script file="Tank_Protection_Paladin_PreBIS.lua"/>
 <Script file="Healer_Holy_Paladin_PreBIS.lua"/>
 <Script file="DPS_Retribution_Paladin_PreBIS.lua"/>
 
+<!--Priest-->
 <Script file="Healer_Holy_Priest_PreBIS.lua"/>
 <Script file="DPS_Shadow_Priest_PreBIS.lua"/>
 
+<!--Rogue-->
 <Script file="DPS_Rogue-PreBIS.lua"/>
 
+<!--Mage-->
 <Script file="DPS_Arcane_Mage_PreBIS.lua"/>
 <Script file="DPS_Fire_Mage_PreBIS.lua"/>
 <Script file="DPS_Frost_Mage_PreBIS.lua"/>
 
+<!--Warrior-->
 <Script file="Tank_Protection_Warrior_PreBIS.lua"/>
+<Script file="DPS_Warrior_PreBIS.lua"/>
 
 </Ui>
