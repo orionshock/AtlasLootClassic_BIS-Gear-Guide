@@ -4,12 +4,12 @@
 ## Dependencies: AtlasLootClassic
 ## LoadOnDemand: 1
 
-## Title: AtlasLootClassic |cFF0099FF[WoWHead Guides P1 Best In Slot]|r
+## Title: AtlasLootClassic |cFF0099FF[P1 Best In Slot Guide from Wowhead]|r
 
 ## X-Category: Map
 ## X-License: GPL v2
 
 ## X-AtlasLootClassic-LootModule: 1
-## X-AtlasLootClassic-ModuleName: WoWHead Guides P1 Best In Slot
+## X-AtlasLootClassic-ModuleName: P1 Best In Slot [Wowhead]
 
 loader.xml
