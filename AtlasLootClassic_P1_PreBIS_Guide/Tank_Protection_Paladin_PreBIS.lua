@@ -25,7 +25,6 @@ local el_Gems = {	--Extra List : Gems
 		{ 02, 32866 }, { 17, 32765 },
         { 04, "INV_MISC_GEM_01", nil, "Primary"},
 		{ 05, 31092 },
-		
 	}
 }
 
