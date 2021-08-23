@@ -68,12 +68,12 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 1, "INV_JEWELRY_RING_23", nil, "Ring Enchant" },
-
-		{ 4, "INV_SWORD_65", nil, "Weapon Enchant"},
-
-		{ 7, "INV_SHIELD_30", nil, "Shield Enchant" }, 
-
+		{ 01, "INV_SWORD_65", nil, "Weapon Enchant"},
+		{ 02, 27984 },		
+		{ 03, "INV_SHIELD_30", nil, "Shield Enchant" }, 
+		{ 04, 34009 },
+		{ 05, "INV_WEAPON_BOW_07", nil, "Guns and Bows" },
+		{ 06, 30332 },
 	},
 }
 
