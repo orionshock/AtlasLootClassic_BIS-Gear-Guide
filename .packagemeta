@@ -1,0 +1,7 @@
+
+move-folders:
+    AtlasLootClassic_BIS-Gear-Guide/AtlasLootClassic_P1_BIS_Guide: AtlasLootClassic_P1_BIS_Guide
+    AtlasLootClassic_BIS-Gear-Guide/AtlasLootClassic_P1_PreBIS_Guide: AtlasLootClassic_P1_PreBIS_Guide
+
+required-dependencies:
+    atlaslootclassic
