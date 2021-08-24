@@ -24,4 +24,10 @@
 <Script file="Tank_Protection_Warrior_BIS.lua"/>
 <Script file="DPS_Warrior_BIS.lua"/>
 
+<!--Druid-->
+<Script file="DPS_Balance_Druid_BIS.lua"/>
+<Script file="DPS_Feral_Druid_BIS.lua"/>
+<Script file="Tank_Feral_Druid_BIS.lua"/>
+<Script file="Healer_Restoration_Druid_BIS.lua"/>
+
 </Ui>

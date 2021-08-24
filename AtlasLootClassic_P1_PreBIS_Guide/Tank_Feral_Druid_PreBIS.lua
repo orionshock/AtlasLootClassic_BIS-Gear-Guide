@@ -12,8 +12,8 @@ local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
 local roleType_DPS  = addonScope.roleType_DPS 
 
-local _FileRole = "ROLE"!
-local _FileClass = "CLASS"!
+local _FileRole = "Feral(Bear)"
+local _FileClass = "Druid"
 local _FilePrefix = _FileRole.." ".._FileClass
 
 local el_Gems = {	--Extra List : Gems
@@ -77,7 +77,7 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 
 data[ _FilePrefix ] ={
 	name = _FilePrefix,
-	ContentType = <ReplaceME>,
+	ContentType = roleType_Tank,
 	LoadDifficulty = LOAD_DIFF,
 	TableType = NORMAL_ITTYPE,
 	gameVersion = 2,
