@@ -21,11 +21,12 @@ local el_Gems = {	--Extra List : Gems
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-        { 01, "INV_MISC_DESECRATED_LEATHERHELM", nil, "Meta Gem" },
-
-        { 04, "INV_MISC_GEM_01", nil, "Primary"},
-
-        { 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{ 01, "INV_MISC_DESECRATED_LEATHERHELM", nil, "Meta Gem" },
+		{ 02, 46601 },	{ 17, 32766 },
+		{ 04, "INV_MISC_GEM_01", nil, "Primary"},
+		{ 05, 31088 },
+		{ 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{ 08, 31107 },		
 	}
 }
 
@@ -35,9 +36,9 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 	TableType = NORMAL_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_MISC_DESECRATED_LEATHERHELM", nil, "Head Glyph"},
-
+		{ 02, 29191 },
 		{ 04, "INV_MISC_DESECRATED_LEATHERSHOULDER", nil, "Shoulder Inscription"},
-
+		{ 05, 28909 },	{ 20, 28886 },
 	}
 }
 
@@ -46,18 +47,14 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
-		
-		{ 16, "INV_MISC_DESECRATED_LEATHERCHEST", nil, "Chest" },
-
-		{ 04 , "INV_MISC_DESECRATED_LEATHERBRACER", nil, "Wrist" },
-
-		{ 08 , "INV_MISC_DESECRATED_LEATHERGLOVE", nil, "Hands" },
-
-		{ 11 , "INV_MISC_DESECRATED_LEATHERPANTS", nil, "Legs" },
-
-		{ 14 , "INV_MISC_DESECRATED_LEATHERBOOTS", nil, "Feet" },
-
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
+		{ 02, 25084 },
+		{ 04, "INV_MISC_DESECRATED_LEATHERCHEST", nil, "Chest" },{ 19 , "INV_MISC_DESECRATED_LEATHERBRACER", nil, "Wrist" },
+		{ 05, 27960 },{ 20, 27917 },
+		{ 07 , "INV_MISC_DESECRATED_LEATHERPANTS", nil, "Legs" },{ 22 , "INV_MISC_DESECRATED_LEATHERGLOVE", nil, "Hands" },
+		{ 08, 31432 },{ 23, 33997 },
+		{ 10 , "INV_MISC_DESECRATED_LEATHERBOOTS", nil, "Feet" },
+		{ 11, 34008 },
 	},
 }
 
@@ -67,11 +64,9 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 1, "INV_JEWELRY_RING_23", nil, "Ring Enchant" },
-
+		{ 02, 27924 },
 		{ 4, "INV_SWORD_65", nil, "Weapon Enchant"},
-
-		{ 7, "INV_SHIELD_30", nil, "Shield Enchant" }, 
-
+		{ 05, 27981 },
 	},
 }
 
@@ -83,9 +78,18 @@ data[ _FilePrefix ] ={
 	gameVersion = 2,
 	items = {
 		{
-			name = "Set1",
+			name = "Best In Slot Gear Example",
 			[NORMAL_DIFF] = {
-
+				{ 01, 24266 },	{ 16, 21846 },
+				{ 02, 28134 },	{ 17, 24262 },
+				{ 03, 27796 },	{ 18, 27821 },
+				{ 04, 27981 },	{ 19, 29172 },
+				{ 05, 21848 },	{ 20, 28227 },
+				{ 06, 24250 },	{ 21, 29370 },
+				{ 07, 21847 },	{ 22, 29132 },
+				{ 09, 30832 },
+				{ 10, 29271 },
+				{ 11, 27518 },
 			}
 		},
 		{	--Head Slot
