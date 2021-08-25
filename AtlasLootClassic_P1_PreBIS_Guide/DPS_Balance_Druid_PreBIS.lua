@@ -95,110 +95,212 @@ data[ _FilePrefix ] ={
 		{	--Head Slot
 			name = "Head",
 			[NORMAL_DIFF] = {
-
+				{1,24266, nil, nil, "BiS" },
+				{2,31110, nil, nil, "Optional" },
+				{3,28169, nil, nil, "Optional" },
+				{4,32089, nil, nil, "Optional" },
+				{5,28137, nil, nil, "PvP" },
+				{6,28278, nil, nil, "Optional" },
+				{7,28415, nil, nil, "Optional" },
 			}
 		},
 		{	--Shoulders
 			name = "Shoulders",
 			[NORMAL_DIFF] = {
-
+				{1,27796, nil, nil, "BiS" },
+				{2,27778, nil, nil, "BiS" },
+				{3,30925, nil, nil, "Optional" },
+				{4,27994, nil, nil, "Optional" },
+				{5,22983, nil, nil, "Optional" },
+				{6,28139, nil, nil, "PvP" },
+				{7,27738, nil, nil, "Optional" },
+				{8,31797, nil, nil, "Optional" },
 			},
 		},
 		{	--Back
 			name = "Back",
 			[NORMAL_DIFF] = {
-
+				{1,27981, nil, nil, "BiS" },
+				{2,31140, nil, nil, "Optional" },
+				{3,23050, nil, nil, "Optional" },
+				{4,22731, nil, nil, "Optional" },
+				{5,29369, nil, nil, "Optional" },
+				{6,24252, nil, nil, "Optional" },
+				{7,25777, nil, nil, "Optional" },
 			},
 		},
 		{	--Chest
 			name = "Chest",
 			[NORMAL_DIFF] = {
-
+				{1,21848, nil, nil, "BiS" },
+				{2,29522, nil, nil, "Optional" },
+				{3,31297, nil, nil, "Optional" },
+				{4,29341, nil, nil, "Optional" },
+				{5,31340, nil, nil, "Optional" },
+				{6,28342, nil, nil, "Optional" },
+				{7,28140, nil, nil, "PvP" },
+				{8,29129, nil, nil, "Optional" },
+				{9,28229, nil, nil, "Optional" },
 			},
 		},
 		{	--Wrist
 			name = "Wrist",
 			[NORMAL_DIFF] = {
-
+				{1,29523, nil, nil, "BiS" },
+				{2,24250, nil, nil, "BiS" },
+				{3,27462, nil, nil, "Optional" },
+				{4,28411, nil, nil, "PvP" },
+				{5,29240, nil, nil, "Optional" },
+				{6,21186, nil, nil, "Optional" },
+				{7,28174, nil, nil, "Optional" },
+				{8,29255, nil, nil, "Optional" },
 			},
 
 		},
 		{	--Hands
 			name = "Hands",
 			[NORMAL_DIFF] = {
-
+				{1,21847, nil, nil, "BiS" },
+				{2,27493, nil, nil, "Optional" },
+				{3,27537, nil, nil, "Optional" },
+				{4,24450, nil, nil, "Optional" },
+				{5,31149, nil, nil, "Optional" },
+				{6,27465, nil, nil, "Optional" },
+				{7,29317, nil, nil, "Optional" },
+				{8,24452, nil, nil, "Optional" },
 			},
 		},
 		{	--Waist
 			name = "Waist",
 			[NORMAL_DIFF] = {
-
+				{1,21846, nil, nil, "BiS" },
+				{2,24256, nil, nil, "BiS" },
+				{3,29524, nil, nil, "Optional" },
+				{4,29241, nil, nil, "Optional" },
+				{5,27843, nil, nil, "Optional" },
+				{6,31461, nil, nil, "Optional" },
+				{7,24395, nil, nil, "Optional" },
 			},
 		},
 		{	--Legs
 			name = "Legs",
 			[NORMAL_DIFF] = {
-
+				{1,24262, nil, nil, "BiS" },
+				{2,29141, nil, nil, "Optional" },
+				{3,29142, nil, nil, "Optional" },
+				{4,30531, nil, nil, "Optional" },
+				{5,29343, nil, nil, "Optional" },
+				{6,30532, nil, nil, "Optional" },
+				{7,28212, nil, nil, "Optional" },
+				{8,27492, nil, nil, "Optional" },
+				{9,28185, nil, nil, "Optional" },
 			},
 		},
 		{	--Feet
 			name = "Feet",
 			[NORMAL_DIFF] = {
-
+				{1,27821, nil, nil, "BiS" },
+				{2,28406, nil, nil, "BiS" },
+				{3,28179, nil, nil, "Optional" },
+				{4,28410, nil, nil, "PvP" },
+				{5,29808, nil, nil, "Optional" },
+				{6,30519, nil, nil, "Optional" },
+				{7,29258, nil, nil, "Optional" },
+				{8,27848, nil, nil, "Optional" },
+				{9,27914, nil, nil, "Optional" },
+				{10,29242, nil, nil, "Optional" },
 			},
 		},
 		{	--Neck
 			name = "Neck",
 			[NORMAL_DIFF] = {
-
+				{1,28134, nil, nil, "BiS" },
+				{2,27758, nil, nil, "Optional" },
+				{3,31692, nil, nil, "Optional" },
+				{4,28245, nil, nil, "PvP" },
+				{5,29333, nil, nil, "Optional" },
+				{6,24462, nil, nil, "Optional" },
 			},
 		},
 		{	--Rings
 			name = "Rings",
 			[NORMAL_DIFF] = {
-
+				{1,29172, nil, nil, "BiS" },
+				{2,28227, nil, nil, "BiS" },
+				{3,21709, nil, nil, "Optional" },
+				{4,23031, nil, nil, "Optional" },
+				{5,28555, nil, nil, "Optional" },
+				{6,29352, nil, nil, "Optional" },
+				{7,29367, nil, nil, "Optional" },
+				{8,29126, nil, nil, "Optional" },
+				{9,31075, nil, nil, "Optional" },
+				{10,30366, nil, nil, "Optional" },
+				{11,31290, nil, nil, "Optional" },
+				{12,28394, nil, nil, "Optional" },
 			},
 		},
-		{	--Trinkets 1
-			name = "Trinkets1",
+		{	--Trinkets
+			name = "Trinkets",
 			[NORMAL_DIFF] = {
-
+				{1,29370, nil, nil, "BiS" },
+				{2,27683, nil, nil, "BiS" },
+				{3,29132, nil, nil, "BiS" },
+				{4,19379, nil, nil, "BiS" },
+				{5,23046, nil, nil, "Optional" },
+				{6,28223, nil, nil, "Optional" },
+				{7,26055, nil, nil, "Optional" },
+				{8,30340, nil, nil, "Optional" },
+				{9,12930, nil, nil, "Optional" },
+				{10,25936, nil, nil, "Optional" },
+				{11,25620, nil, nil, "Optional" },
+				{12,25619, nil, nil, "Optional" },
 			},
 		},
-		{	--Trinkets 2
-			name = "Trinkets2",
-			[NORMAL_DIFF] = {
-
-			},
-		},
-		{	--Trinkets 3
-			name = "Trinkets3",
-			[NORMAL_DIFF] = {
-
-			},
-		},
-		{	--1H Wep
+		{	--1-Handed Weapons
 			name = "1-Handed Weapons",
 			[NORMAL_DIFF] = {
-
+				{1,23554, nil, nil, "BiS" },
+				{2,30832, nil, nil, "BiS" },
+				{3,28297, nil, nil, "PvP" },
+				{4,32450, nil, nil, "PvP" },
+				{5,27543, nil, nil, "Optional" },
+				{6,23458, nil, nil, "Optional" },
+				{7,27937, nil, nil, "Optional" },
+				{8,27741, nil, nil, "Optional" },
+				{9,27868, nil, nil, "Optional" },
 			},
 		},
-		{	--2H Wep
+		{	--2-Handed Weapons
 			name = "2-Handed Weapons",
 			[NORMAL_DIFF] = {
-
+				{1,24557, nil, nil, "PvP" },
+				{2,29355, nil, nil, "BiS" },
+				{3,27842, nil, nil, "Optional" },
+				{4,29130, nil, nil, "Optional" },
+				{5,18874, nil, nil, "PvP" },
+				{6,28341, nil, nil, "Optional" },
+				{7,31308, nil, nil, "Optional" },
+				{8,28188, nil, nil, "Optional" },
 			},
 		},
-		{	--Ranged
-			name = "Ranged",
+		{	--Offhands
+			name = "Offhands",
 			[NORMAL_DIFF] = {
-
+				{1,29271, nil, nil, "BiS" },
+				{2,29273, nil, nil, "Optional" },
+				{3,28412, nil, nil, "Optional" },
+				{4,23049, nil, nil, "Optional" },
+				{5,28187, nil, nil, "Optional" },
+				{6,28260, nil, nil, "Optional" },
+				{7,29330, nil, nil, "Optional" },
 			},
 		},
-		{	--Offhand
-			name = "OffHand",
+		{	--Idols
+			name = "Idols",
 			[NORMAL_DIFF] = {
-
+				{1,27518, nil, nil, "BiS" },
+				{2,31025, nil, nil, "Option" },
+				{3,23197, nil, nil, "Option" },
 			},
 		},
 		el_Gems,
