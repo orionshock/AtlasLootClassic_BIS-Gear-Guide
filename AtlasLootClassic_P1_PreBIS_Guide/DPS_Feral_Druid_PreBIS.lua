@@ -48,7 +48,7 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
-		{ 02, 46505 },	
+		{ 02, 34004 },	
 		{ 04, "INV_MISC_DESECRATED_LEATHERCHEST", nil, "Chest" },	{ 19 , "INV_MISC_DESECRATED_LEATHERBRACER", nil, "Wrist" },
 		{ 05, 27960 },	{ 20, 27899 },
 		{ 07 , "INV_MISC_DESECRATED_LEATHERPANTS", nil, "Legs" },	{ 22 , "INV_MISC_DESECRATED_LEATHERGLOVE", nil, "Hands" },
