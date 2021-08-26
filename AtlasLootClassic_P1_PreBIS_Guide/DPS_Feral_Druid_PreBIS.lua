@@ -68,7 +68,6 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 		{ 02, 27920 },
 		{ 04, "INV_SWORD_65", nil, "Weapon Enchant"},
 		{ 05, 27977 },
-
 	},
 }
 
