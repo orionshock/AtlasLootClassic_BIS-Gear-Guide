@@ -67,7 +67,8 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 		{ 01, "INV_JEWELRY_RING_23", nil, "Ring Enchant" },
 		{ 02, 27920 },
 		{ 04, "INV_SWORD_65", nil, "Weapon Enchant"},
-		{ 05, 27977 },	},
+		{ 05, 27977 },	
+	},
 }
 
 data[ _FilePrefix ] ={
