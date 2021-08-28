@@ -3,31 +3,38 @@
 
 <Script file="data.lua"/>
 
-<!--Paladin-->
-<Script file="Tank_Protection_Paladin_BIS.lua"/>
-<Script file="Healer_Holy_Paladin_BIS.lua"/>
-<Script file="DPS_Retribution_Paladin_BIS.lua"/>
+<Script file="P1_BIS_DPS_Druid_Balance.lua"/>
+<Script file="P1_BIS_DPS_Druid_Feral.lua"/>
 
-<!--Priest-->
-<Script file="Healer_Holy_Priest_BIS.lua"/>
-<Script file="DPS_Shadow_Priest_BIS.lua"/>
+<Script file="P1_BIS_DPS_Hunter_BeastMastery.lua"/>
+<Script file="P1_BIS_DPS_Hunter_Marksmanship.lua"/>
+<Script file="P1_BIS_DPS_Hunter_Survival.lua"/>
 
-<!--Rogue-->
-<Script file="DPS_Rogue-BIS.lua"/>
+<Script file="P1_BIS_DPS_Mage_Arcane.lua"/>
+<Script file="P1_BIS_DPS_Mage_Fire.lua"/>
+<Script file="P1_BIS_DPS_Mage_Frost.lua"/>
 
-<!--Mage-->
-<Script file="DPS_Arcane_Mage_BIS.lua"/>
-<Script file="DPS_Fire_Mage_BIS.lua"/>
-<Script file="DPS_Frost_Mage_BIS.lua"/>
+<Script file="P1_BIS_DPS_Paladin_Retribution.lua"/>
 
-<!--Warrior-->
-<Script file="Tank_Protection_Warrior_BIS.lua"/>
-<Script file="DPS_Warrior_BIS.lua"/>
+<Script file="P1_BIS_DPS_Priest_Shadow.lua"/>
 
-<!--Druid-->
-<Script file="DPS_Balance_Druid_BIS.lua"/>
-<Script file="DPS_Feral_Druid_BIS.lua"/>
-<Script file="Tank_Feral_Druid_BIS.lua"/>
-<Script file="Healer_Restoration_Druid_BIS.lua"/>
+<Script file="P1_BIS_DPS_Rogue.lua"/>
+
+<Script file="P1_BIS_DPS_Warrior_FuryArms.lua"/>
+
+<Script file="P1_BIS_Healer_Druid_Restoration.lua"/>
+<Script file="P1_BIS_Healer_Paladin_Holy.lua"/>
+<Script file="P1_BIS_Healer_Priest_Holy.lua"/>
+
+<Script file="P1_BIS_Tank_Druid_Feral.lua"/>
+<Script file="P1_BIS_Tank_Paladin_Protection.lua"/>
+<Script file="P1_BIS_Tank_Warrior_Protection.lua"/>
 
 </Ui>
+
+
+
+
+
+
+

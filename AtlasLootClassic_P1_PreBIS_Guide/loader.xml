@@ -3,31 +3,32 @@
 
 <Script file="data.lua"/>
 
-<!--Paladin-->
-<Script file="Tank_Protection_Paladin_PreBIS.lua"/>
-<Script file="Healer_Holy_Paladin_PreBIS.lua"/>
-<Script file="DPS_Retribution_Paladin_PreBIS.lua"/>
+<Script file="PreBIS_DPS_Druid_Balance.lua"/>
+<Script file="PreBIS_DPS_Druid_Feral.lua"/>
 
-<!--Priest-->
-<Script file="Healer_Holy_Priest_PreBIS.lua"/>
-<Script file="DPS_Shadow_Priest_PreBIS.lua"/>
+<Script file="PreBIS_DPS_Hunter_BeastMastery.lua"/>
+<Script file="PreBIS_DPS_Hunter_Marksmanship.lua"/>
+<Script file="PreBIS_DPS_Hunter_Survival.lua"/>
 
-<!--Rogue-->
-<Script file="DPS_Rogue-PreBIS.lua"/>
+<Script file="PreBIS_DPS_Mage_Arcane.lua"/>
+<Script file="PreBIS_DPS_Mage_Fire.lua"/>
+<Script file="PreBIS_DPS_Mage_Frost.lua"/>
 
-<!--Mage-->
-<Script file="DPS_Arcane_Mage_PreBIS.lua"/>
-<Script file="DPS_Fire_Mage_PreBIS.lua"/>
-<Script file="DPS_Frost_Mage_PreBIS.lua"/>
+<Script file="PreBIS_DPS_Paladin_Retribution.lua"/>
 
-<!--Warrior-->
-<Script file="Tank_Protection_Warrior_PreBIS.lua"/>
-<Script file="DPS_Warrior_PreBIS.lua"/>
+<Script file="PreBIS_DPS_Priest_Shadow.lua"/>
 
-<!--Druid-->
-<Script file="DPS_Balance_Druid_PreBIS.lua"/>
-<Script file="DPS_Feral_Druid_PreBIS.lua"/>
-<Script file="Tank_Feral_Druid_PreBIS.lua"/>
-<Script file="Healer_Restoration_Druid_PreBIS.lua"/>
+<Script file="PreBIS_DPS_Rogue.lua"/>
+
+<Script file="PreBIS_DPS_Warrior_FuryArms.lua"/>
+
+<Script file="PreBIS_Healer_Druid_Restoration.lua"/>
+<Script file="PreBIS_Healer_Paladin_Holy.lua"/>
+<Script file="PreBIS_Healer_Priest_Holy.lua"/>
+
+<Script file="PreBIS_Tank_Druid_Feral.lua"/>
+<Script file="PreBIS_Tank_Paladin_Protection.lua"/>
+<Script file="PreBIS_Tank_Warrior_Protection.lua"/>
 
 </Ui>
+
