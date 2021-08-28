@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Restoration"
 local _FileClass = "Druid"
@@ -46,8 +46,8 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
-		
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
+
 		{ 16, "INV_MISC_DESECRATED_LEATHERCHEST", nil, "Chest" },
 
 		{ 04 , "INV_MISC_DESECRATED_LEATHERBRACER", nil, "Wrist" },
@@ -70,7 +70,7 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 
 		{ 4, "INV_SWORD_65", nil, "Weapon Enchant"},
 
-		{ 7, "INV_SHIELD_30", nil, "Shield Enchant" }, 
+		{ 7, "INV_SHIELD_30", nil, "Shield Enchant" },
 
 	},
 }

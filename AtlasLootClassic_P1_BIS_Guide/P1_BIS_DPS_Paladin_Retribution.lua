@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Retribution"
 local _FileClass = "Paladin"
@@ -49,7 +49,7 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-        { 01 , "INV_MISC_CAPE_20", [4] = "Back" },	
+        { 01 , "INV_MISC_CAPE_20", [4] = "Back" },
         { 02, 34004 }, { 17, 25084, nil, nil, "If you have threat issues." },
         { 04, "INV_MISC_DESECRATED_PLATECHEST", [4] = "Chest" }, { 19 , "INV_MISC_DESECRATED_PLATEBRACER", [4] = "Wrist" },
         { 05, 27960 },{ 20, 27899 },
@@ -74,7 +74,7 @@ data[ _FilePrefix ] ={
 			name = "Improved Faerie Fire Gear Set",
 			[NORMAL_DIFF] = {
 				{ 01, 29073 }, {16, 28779 },
-				{ 02, 28745 }, {17, 30257 },	
+				{ 02, 28745 }, {17, 30257 },
 				{ 03, 29075 }, {18, 28608 },
 				{ 04, 24259 }, {19, 30834 },
 				{ 05, 29071 }, {20, 28730 },
@@ -88,7 +88,7 @@ data[ _FilePrefix ] ={
 			name = "Non Improved Faerie Fire",
 			[NORMAL_DIFF] = {
 				{ 01, 29073 }, {16, 28779 },
-				{ 02, 29381 }, {17, 30257 },	
+				{ 02, 29381 }, {17, 30257 },
 				{ 03, 29075 }, {18, 28545 },
 				{ 04, 24259 }, {19, 30834 },
 				{ 05, 29071 }, {20, 28757 },
@@ -198,10 +198,10 @@ data[ _FilePrefix ] ={
 				{4,28730, nil, nil, "Optional-Hit" },
 				{5,29283, nil, nil, "Optional-NonHit" },
 				{6,31920, nil, nil, "Option" },
-				{7,28649, nil, nil, "Option" },				
+				{7,28649, nil, nil, "Option" },
 			},
 		},
-		{	--Trinkets 
+		{	--Trinkets
 			name = "Trinkets",
 			[NORMAL_DIFF] = {
 				{1,29383, nil, nil, "BIS" },

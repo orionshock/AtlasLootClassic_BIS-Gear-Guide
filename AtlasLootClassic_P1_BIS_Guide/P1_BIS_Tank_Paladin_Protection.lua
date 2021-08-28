@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Protection"
 local _FileClass = "Paladin"
@@ -48,7 +48,7 @@ local el_GearEnchants = {
 	[NORMAL_DIFF] = {
 		{ 01 , "INV_MISC_CAPE_20", [4] = "Back" },	{16, "INV_MISC_DESECRATED_PLATECHEST", [4] = "Chest" },
 		{ 02 , 25086 },	{17, 27957 },
-						{18, 46594}, 
+						{18, 46594},
 		{ 04 , "INV_MISC_DESECRATED_PLATEBRACER", [4] = "Wrist" },
 		{ 05 , 27914 },	{20, 27906},
 		{ 06 , 27917 },	{21, 0 },
@@ -70,7 +70,7 @@ local el_offEnchants = {
 		{ 2, 27926 },
 		{ 4, "INV_SWORD_65", nil, "1-Handed Weapons"},
 		{ 5, 34010 },
-		{ 7, "INV_SHIELD_30", nil, "Shields" }, 
+		{ 7, "INV_SHIELD_30", nil, "Shields" },
 		{ 8, 27945 },
 	},
 }
@@ -208,7 +208,7 @@ data[ _FilePrefix ] ={
 				{ 06, 23518, nil, nil, "Viable" },
 				{ 07, 27527, nil, nil, "Viable" },
 				{ 08, 29783, nil, nil, "Viable" },
-				{ 09, 29774, nil, nil, "Option" },				
+				{ 09, 29774, nil, nil, "Option" },
 			},
 		},
 		{
@@ -287,7 +287,7 @@ data[ _FilePrefix ] ={
 				{ 05, 32864, nil, nil, "Viable" },
 				{ 06, 27770, nil, nil, "Viable" },
 				{ 07, 24126, nil, nil, "Viable - Threat - JC Only" },
-				{ 08, 13503, nil, nil, "Viable - Alchemists Only" },				
+				{ 08, 13503, nil, nil, "Viable - Alchemists Only" },
 			},
 		},
 		{
@@ -306,19 +306,19 @@ data[ _FilePrefix ] ={
 		{
 			name = "1-Handed Weapons",
 			[NORMAL_DIFF] = {
-				{ 01, 28802, nil, nil, "Best" },	
-				{ 02, 32450, nil, nil, "Best - PvP Required - Hard to Get" },		
-				{ 03, 28749, nil, nil, "Viable - Blood" },	
-				{ 04, 30832, nil, nil, "Best" },	
-				{ 05, 29153, "INV_BANNERPVP_02", nil, "Viable" }, { 20, 29165, "INV_BANNERPVP_01", nil, "Viable" },	
-				{ 06, 29156, "INV_BANNERPVP_02", nil, "Viable - Blood" }, { 21, 29155, "INV_BANNERPVP_01", nil, "Viable - Blood" },	
-				{ 07, 32660, nil, nil, "Viable" },	
-				{ 08, 29185, nil, nil, "Viable" },	
-				{ 09, 27899, nil, nil, "Viable" },	
-				{ 10, 27905, nil, nil, "Viable" },	
-				{ 11, 22988, nil, nil, "Option" },	
-				{ 12, 22807, nil, nil, "Option" },	
-				{ 13, 19360, nil, nil, "Option" },	
+				{ 01, 28802, nil, nil, "Best" },
+				{ 02, 32450, nil, nil, "Best - PvP Required - Hard to Get" },
+				{ 03, 28749, nil, nil, "Viable - Blood" },
+				{ 04, 30832, nil, nil, "Best" },
+				{ 05, 29153, "INV_BANNERPVP_02", nil, "Viable" }, { 20, 29165, "INV_BANNERPVP_01", nil, "Viable" },
+				{ 06, 29156, "INV_BANNERPVP_02", nil, "Viable - Blood" }, { 21, 29155, "INV_BANNERPVP_01", nil, "Viable - Blood" },
+				{ 07, 32660, nil, nil, "Viable" },
+				{ 08, 29185, nil, nil, "Viable" },
+				{ 09, 27899, nil, nil, "Viable" },
+				{ 10, 27905, nil, nil, "Viable" },
+				{ 11, 22988, nil, nil, "Option" },
+				{ 12, 22807, nil, nil, "Option" },
+				{ 13, 19360, nil, nil, "Option" },
 				{ 14, 21622, nil, nil, "Option" },
 				{ 15, 24361, nil, nil, "Option" },	{ 30, 24384, nil, nil, "Option" },
 			},

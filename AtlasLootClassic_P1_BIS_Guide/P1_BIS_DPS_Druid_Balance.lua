@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Balance"
 local _FileClass = "Druid"
@@ -26,7 +26,7 @@ local el_Gems = {	--Extra List : Gems
 		{ 04, "INV_MISC_GEM_01", nil, "Primary"},
 		{ 05, 31088 },
 		{ 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
-		{ 08, 31107 },		
+		{ 08, 31107 },
 	}
 }
 
@@ -230,7 +230,7 @@ data[ _FilePrefix ] ={
 				{10,29258, nil, nil, "Option" },
 				{11,27848, nil, nil, "Option" },
 				{12,27914, nil, nil, "Option" },
-				{13,29242, nil, nil, "Option" },				
+				{13,29242, nil, nil, "Option" },
 			},
 		},
 		{	--Neck

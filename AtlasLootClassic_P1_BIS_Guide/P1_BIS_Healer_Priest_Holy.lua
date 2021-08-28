@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Holy"
 local _FileClass = "Priest"
@@ -46,8 +46,8 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
-		
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
+
 		{ 16, "INV_MISC_DESECRATED_CLOTHCHEST", nil, "Chest" },
 
 		{ 04 , "INV_MISC_DESECRATED_CLOTHBRACER", nil, "Wrist" },
@@ -70,7 +70,7 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 
 		{ 4, "INV_SWORD_65", nil, "Weapon Enchant"},
 
-		{ 7, "INV_SHIELD_30", nil, "Shield Enchant" }, 
+		{ 7, "INV_SHIELD_30", nil, "Shield Enchant" },
 
 	},
 }
@@ -86,7 +86,7 @@ data[ _FilePrefix ] ={
 			name = "Mooncloth Tailoring",
 			[NORMAL_DIFF] = {
 				{ 01, 29049 },	{ 16, 21873 },
-				{ 02, 28822 },	{ 17, 28742 },	
+				{ 02, 28822 },	{ 17, 28742 },
 				{ 03, 21874 },	{ 18, 29251 },
 				{ 04, 28765 },	{ 19, 28790 },
 				{ 05, 21875 },	{ 20, 29290 },
@@ -101,7 +101,7 @@ data[ _FilePrefix ] ={
 			name = "Non-Tailor Alternative",
 			[NORMAL_DIFF] = {
 				{ 01, 29049 },	{ 16, 28652 },
-				{ 02, 28822 },	{ 17, 28742 },	
+				{ 02, 28822 },	{ 17, 28742 },
 				{ 03, 29054 },	{ 18, 29251 },
 				{ 04, 28765 },	{ 19, 28790 },
 				{ 05, 29050 },	{ 20, 29290 },
@@ -116,7 +116,7 @@ data[ _FilePrefix ] ={
 			name = "Maximum Healing",
 			[NORMAL_DIFF] = {
 				{ 01, 29049 },	{ 16, 21873 },
-				{ 02, 30726 },	{ 17, 30727 },	
+				{ 02, 30726 },	{ 17, 30727 },
 				{ 03, 21874 },	{ 18, 27411 },
 				{ 04, 28765 },	{ 19, 28763 },
 				{ 05, 21875 },	{ 20, 30736 },

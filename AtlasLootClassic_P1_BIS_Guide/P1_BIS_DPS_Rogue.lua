@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "DPS"
 local _FileClass = "Rogue"
@@ -22,7 +22,7 @@ local el_Gems = {	--Extra List : Gems
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_MISC_DESECRATED_LEATHERHELM", nil, "Meta Gem" },
-		{ 02, 39961 },	{ 17, 32765 },	
+		{ 02, 39961 },	{ 17, 32765 },
 		{ 03,  },	{ 18,  },
 		{ 04, "INV_MISC_GEM_01", nil, "Main Gems"},
 		{ 05, 31103 },	{ 20, 31098 },
@@ -48,7 +48,7 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
 		{ 02, 34004 },
 		{ 04, "INV_MISC_DESECRATED_LEATHERCHEST", nil, "Chest" },	{ 19 , "INV_MISC_DESECRATED_LEATHERBRACER", nil, "Wrist" },
 		{ 05, 27960 },{ 20, 34002 },
@@ -68,7 +68,7 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 		{ 02, 27927 },	{ 17, 27920 },
 		{ 04, "INV_SWORD_65", nil, "Weapon Enchant"},
 		{ 05, 27984 },	{ 20, 20034 },
-		{ 07, "INV_SHIELD_30", nil, "Ranged Weapon" }, 
+		{ 07, "INV_SHIELD_30", nil, "Ranged Weapon" },
 		{ 08, 30334 },
 	},
 }

@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Feral(Cat)"
 local _FileClass = "Druid"
@@ -23,7 +23,7 @@ local el_Gems = {	--Extra List : Gems
 	[NORMAL_DIFF] = {
 		{ 01, "INV_MISC_GEM_01", nil, "Primary"},
 		{ 02, 31085 },
-		
+
 		{ 04, "INV_MISC_GEM_03", nil, "Meta Fit"},
 		{ 05, 31109 },
 	}
@@ -47,15 +47,15 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
-		{ 02, 34004 },	
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
+		{ 02, 34004 },
 		{ 04, "INV_MISC_DESECRATED_LEATHERCHEST", nil, "Chest" },	{ 19 , "INV_MISC_DESECRATED_LEATHERBRACER", nil, "Wrist" },
 		{ 05, 27960 },	{ 20, 27899 },
 		{ 07 , "INV_MISC_DESECRATED_LEATHERPANTS", nil, "Legs" },	{ 22 , "INV_MISC_DESECRATED_LEATHERGLOVE", nil, "Hands" },
 		{ 08, 35549 },	{ 23, 25080 },
-		{ 09, 35554 },	
-		{ 11 , "INV_MISC_DESECRATED_LEATHERBOOTS", nil, "Feet" },	
-		{ 12, 34007 },	
+		{ 09, 35554 },
+		{ 11 , "INV_MISC_DESECRATED_LEATHERBOOTS", nil, "Feet" },
+		{ 12, 34007 },
 	},
 }
 

@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Arcane"
 local _FileClass = "Mage"
@@ -23,7 +23,7 @@ local el_Gems = {	--Extra List : Gems
 	[NORMAL_DIFF] = {
 		{ 01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Meta Gem" },
 		{ 02, 44794 },	{ 17, 32766 },
-		
+
 		{ 04, "INV_MISC_GEM_01", nil, "Primary"},
 		{ 05, 31096 },
 	}
@@ -48,9 +48,9 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
 		{ 02, 25084 },
-		{ 04, "INV_MISC_DESECRATED_CLOTHCHEST", nil, "Chest" },	
+		{ 04, "INV_MISC_DESECRATED_CLOTHCHEST", nil, "Chest" },
 		{ 05, 27960 },
 		{ 07 , "INV_MISC_DESECRATED_CLOTHBRACER", nil, "Wrist" },
 		{ 08, 27917 },

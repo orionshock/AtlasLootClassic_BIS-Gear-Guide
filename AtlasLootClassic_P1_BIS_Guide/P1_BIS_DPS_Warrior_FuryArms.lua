@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Arms/Fury"
 local _FileClass = "Warrior"
@@ -27,7 +27,7 @@ local el_Gems = {	--Extra List : Gems
 		{ 05, 31097 },	{ 20, 31113 },
 		{ 06, 31106 },
 		{ 08, 31092, nil, nil, "For Shield, as needed" },
-		
+
 	}
 }
 
@@ -48,14 +48,14 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },				
-		{ 02 , 34004 },				
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
+		{ 02 , 34004 },
 		{ 04 , "INV_MISC_DESECRATED_PLATECHEST", ni, "Chest" }, { 19 , "INV_MISC_DESECRATED_PLATEBRACER", nil, "Wrist" },
 		{ 05 , 27960 },	{ 20 , 27899 },
 		{ 07 , "INV_MISC_DESECRATED_PLATEPANTS", nil, "Legs" }, { 22 , "INV_MISC_DESECRATED_PLATEGLOVES", nil, "Hands" },
 		{ 08 , 35554 }, { 23 , 33995 },
-		{ 10 , "INV_MISC_DESECRATED_PLATEBOOTS", nil, "Feet" },				
-		{ 11 , 34007 },				
+		{ 10 , "INV_MISC_DESECRATED_PLATEBOOTS", nil, "Feet" },
+		{ 11 , 34007 },
 	},
 }
 
@@ -65,8 +65,8 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_SWORD_65", nil, "Weapon Enchant"},
-		{ 02, 27984 },		
-		{ 04, "INV_SHIELD_30", nil, "Shield Enchant" }, 
+		{ 02, 27984 },
+		{ 04, "INV_SHIELD_30", nil, "Shield Enchant" },
 		{ 05, 34009 },
 		{ 07, "INV_WEAPON_BOW_07", nil, "Guns and Bows" },
 		{ 08, 30332 },

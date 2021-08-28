@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Holy"
 local _FileClass = "Paladin"
@@ -47,7 +47,7 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01 , "INV_MISC_CAPE_20", [4] = "Back" },	{16, "INV_MISC_DESECRATED_PLATECHEST", [4] = "Chest" },
-		{ 02, 27962 },	{17, 33991 },	
+		{ 02, 27962 },	{17, 33991 },
 		{ 04 , "INV_MISC_DESECRATED_PLATEBRACER", [4] = "Wrist" }, { 19 , "INV_MISC_DESECRATED_PLATEGLOVES", [4] = "Hands" },
 		{ 05, 27911 },	{ 20, 33999 },
 		{ 07 , "INV_MISC_DESECRATED_PLATEPANTS", [4] = "Legs" }, { 22 , "INV_MISC_DESECRATED_PLATEBOOTS", [4] = "Feet" },
@@ -64,7 +64,7 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 		{ 2, 27926 },
 		{ 4, "INV_SWORD_65", nil, "1-Handed Weapons"},
 		{ 5, 34010 },
-		{ 7, "INV_SHIELD_30", nil, "Shields" }, 
+		{ 7, "INV_SHIELD_30", nil, "Shields" },
 		{ 8, 27945 },
 	},
 }
@@ -80,7 +80,7 @@ data[ _FilePrefix ] = {
 			name = "World Boss Gear Set",
 			[NORMAL_DIFF] = {
 				{ 01, 30728 },	{16, 28733 },
-				{ 02, 30726 },	{17, 30727 },	
+				{ 02, 30726 },	{17, 30727 },
 				{ 03, 29064 },	{18, 30737 },
 				{ 04, 31329 },	{19, 30736 },
 				{ 05, 29062 },	{20, 28763 },
@@ -95,7 +95,7 @@ data[ _FilePrefix ] = {
 			name = "Non-Crafted Gear Set (focusing on using plate gear)",
 			[NORMAL_DIFF] = {
 				{ 01, 29061 },	{16, 28733 },
-				{ 02, 28609 },	{17, 28748 },	
+				{ 02, 28609 },	{17, 28748 },
 				{ 03, 29064 },	{18, 28569 },
 				{ 04, 28765 },	{19, 28763 },
 				{ 05, 29062 },	{20, 28790 },
@@ -110,7 +110,7 @@ data[ _FilePrefix ] = {
 			name = "Tailoring Gear Set",
 			[NORMAL_DIFF] = {
 				{ 01, 24264 },	{16, 21873 },
-				{ 02, 28609 },	{17, 24261 },	
+				{ 02, 28609 },	{17, 24261 },
 				{ 03, 21874 },	{18, 28752 },
 				{ 04, 31329 },	{19, 28763 },
 				{ 05, 21875 },	{20, 28790 },
@@ -125,7 +125,7 @@ data[ _FilePrefix ] = {
 			name = "Leatherworking Gear Set",
 			[NORMAL_DIFF] = {
 				{ 01, 29061 },	{16, 29524 },
-				{ 02, 28609 },	{17, 28751 },	
+				{ 02, 28609 },	{17, 28751 },
 				{ 03, 29064 },	{18, 28752 },
 				{ 04, 31329 },	{19, 28763 },
 				{ 05, 29522 },	{20, 28790 },
@@ -272,7 +272,7 @@ data[ _FilePrefix ] = {
 				{ 04, 23556, nil, nil, "Optional" },
 				{ 05, 29353, nil, nil, "Optional" },
 				{ 06, 31342, nil, nil, "Optional" },
-				{ 07, 29175, nil, nil, "Optional" },				
+				{ 07, 29175, nil, nil, "Optional" },
 			},
 		},
 		{	--Offhands and Shields

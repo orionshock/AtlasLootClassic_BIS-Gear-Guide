@@ -10,7 +10,7 @@ local NORMAL_ITTYPE = addonScope.NORMAL_ITTYPE
 local PROF_ITTYPE = addonScope.PROF_ITTYPE
 local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
-local roleType_DPS  = addonScope.roleType_DPS 
+local roleType_DPS  = addonScope.roleType_DPS
 
 local _FileRole = "Shadow"
 local _FileClass = "Priest"
@@ -39,7 +39,7 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 		{ 02, 29191 },
 		{ 04, "INV_MISC_DESECRATED_CLOTHSHOULDER", nil, "Shoulder Inscription"},
 		{ 05, 28886 },
-		{ 06, 23545 },	{ 21, 28881 },	
+		{ 06, 23545 },	{ 21, 28881 },
 		{ 07, 20076 },
 		{ 08, 28909 },	{ 23, 28903 },
 	}
@@ -50,17 +50,17 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
 		{ 02, 34006, nil, nil, "Defensive Best" },{ 17, 25084, nil, nil, "Helps reduce aggro" },
 		{ 03, 27962, nil, nil, "Defensive, balanced / expensive" },	{ 18, 34003, nil, nil, "For PvP and maybe in PvE" },
-		{ 04, "INV_MISC_DESECRATED_CLOTHCHEST", nil, "Chest" },	
+		{ 04, "INV_MISC_DESECRATED_CLOTHCHEST", nil, "Chest" },
 		{ 05, 33990 },{ 20, 33991 },
 		{ 06, 33992, nil, nil, "PvP" },{ 21, 27957, nil, nil, "PvP Alt or Stam for PvE" },
-			
+
 		{ 08 , "INV_MISC_DESECRATED_CLOTHBRACER", nil, "Wrist" },{ 23 , "INV_MISC_DESECRATED_CLOTHGLOVE", nil, "Hands" },
 		{ 09, 27917, nil, nil, "BIS" }, { 24, 33997, nil, nil, "BIS" },
 		{ 10, 27914, nil, nil, "PvP Alt" }, { 25, 33994, nil, nil, "Alternative" },
-			
+
 		{ 12 , "INV_MISC_DESECRATED_CLOTHPANTS", nil, "Legs" }, { 27 , "INV_MISC_DESECRATED_CLOTHBOOTS", nil, "Feet" },
 		{ 13, 31432, nil, nil, "Best" }, { 28, 27948, nil, nil, "BIS" },
 		{ 14, 31430, nil, nil, "Alternative" },{ 29, 34008, nil, nil, "Alternate" },
@@ -78,7 +78,7 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 		{ 04, "INV_SWORD_65", nil, "Weapon Enchant"},
 		{ 05, 27982 },
 		{ 06, 27975 },
-		{ 08, 28003, nil, nil, "entirely situational and not the primary choice" },	
+		{ 08, 28003, nil, nil, "entirely situational and not the primary choice" },
 	},
 }
 
@@ -93,7 +93,7 @@ data[ _FilePrefix ] ={
 			name = "Maximum Output",
 			[NORMAL_DIFF] = {
 				{ 01, 24266 },	{ 16, 30675 },
-				{ 02, 30666 },	{ 17, 24262 },	
+				{ 02, 30666 },	{ 17, 24262 },
 				{ 03, 21869 },	{ 18, 21870 },
 				{ 04, 25043, nil, nil, "of Shadow Wrath. +45 Shadow Damage" },	{ 19, 21709 },
 				{ 05, 21871 },	{ 20, 23031 },
@@ -108,7 +108,7 @@ data[ _FilePrefix ] ={
 			name = "Realistic Setup",
 			[NORMAL_DIFF] = {
 				{ 01, 24266 },	{ 16, 24256 },
-				{ 02, 30666 },	{ 17, 24262 },	
+				{ 02, 30666 },	{ 17, 24262 },
 				{ 03, 21869 },	{ 18, 21870 },
 				{ 04, 25043, nil, nil, "of Shadow Wrath. +45 Shadow Damage" },	{ 19, 28793 },
 				{ 05, 21871 },	{ 20, 29352 },
@@ -232,7 +232,7 @@ data[ _FilePrefix ] ={
 				{2,28770, nil, nil, "Great" },
 				{3,23450, nil, nil, "Great" },
 				{4,28297, nil, nil, "Great" },
-				{5,30832, nil, nil, "Viable" },				
+				{5,30832, nil, nil, "Viable" },
 			},
 		},
 		{	--Wand
