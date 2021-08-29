@@ -198,7 +198,7 @@ data[ _FilePrefix ] ={
 			name = "Rings",
 			[NORMAL_DIFF] = {
 				{1,30860, nil, nil, "BiS" },
-				{2,31077, nil, nil, "BiS", [ATLASLOOT_IT_ALLIANCE] = false, [ATLASLOOT_IT_HORDE] = true },
+				{2,31077, nil, nil, "BiS", },
 				{3,23038, nil, nil, "Optional" },
 				{4,27925, nil, nil, "Optional" },
 				{5,30973, nil, nil, "Optional" },
@@ -247,10 +247,9 @@ data[ _FilePrefix ] ={
 			[NORMAL_DIFF] = {
 				{1,29351, nil, nil, "BiS" },
 				{2,22812, nil, nil, "Optional" },
-				{3,29151, nil, nil, "Optional" },
-				{4,29152, nil, nil, "Optional" },
-				{5,31323, nil, nil, "Optional" },
-				{6,31303, nil, nil, "Optional" },
+				{3, nil, nil, nil, "Optional", [ATLASLOOT_IT_HORDE] = 29152, [ATLASLOOT_IT_ALLIANCE] = 29151 },
+				{4,31323, nil, nil, "Optional" },
+				{5,31303, nil, nil, "Optional" },
 			},
 		},
 		{	--Quivers/Arros, Pouches/Ammo
