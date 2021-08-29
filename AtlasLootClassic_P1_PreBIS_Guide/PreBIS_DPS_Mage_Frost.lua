@@ -103,7 +103,7 @@ data[ _FilePrefix ] ={
 			name = "Head",
 			[NORMAL_DIFF] = {
 				{1,24266, nil, nil, "BiS" },
-				{2,28169, nil, nil, "Optional" },
+				{2,28169, nil, nil, "Optional", [ATLASLOOT_IT_ALLIANCE] = false, [ATLASLOOT_IT_HORDE] = true },
 				{3,28415, nil, nil, "Optional" },
 				{4,28278, nil, nil, "Optional" },
 				{5,28193, nil, nil, "Optional" },
@@ -264,8 +264,7 @@ data[ _FilePrefix ] ={
 				{9,28418, nil, nil, "Optional" },
 				{10,29179, nil, nil, "Optional" },
 				{11,28040, nil, nil, "Easy to Obtain" },
-				{12,25620, nil, nil, "Easy to Obtain" },
-				{13,25619, nil, nil, "Easy to Obtain" },
+				{12, nil, nil, nil, "Easy to Obtain", [ATLASLOOT_IT_HORDE] = 25620, [ATLASLOOT_IT_ALLIANCE] = 25619 },
 			},
 		},
 		{	--1H Wep

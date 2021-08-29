@@ -97,7 +97,7 @@ data[ _FilePrefix ] ={
 			[NORMAL_DIFF] = {
 				{1,24266, nil, nil, "BiS" },
 				{2,31110, nil, nil, "Optional" },
-				{3,28169, nil, nil, "Optional" },
+				{3,28169, nil, nil, "Optional", [ATLASLOOT_IT_ALLIANCE] = false, [ATLASLOOT_IT_HORDE] = true },
 				{4,32089, nil, nil, "Optional" },
 				{5,28137, nil, nil, "PvP" },
 				{6,28278, nil, nil, "Optional" },
@@ -252,8 +252,8 @@ data[ _FilePrefix ] ={
 				{8,30340, nil, nil, "Optional" },
 				{9,12930, nil, nil, "Optional" },
 				{10,25936, nil, nil, "Optional" },
-				{11,25620, nil, nil, "Optional" },
-				{12,25619, nil, nil, "Optional" },
+				{11, nil, nil, nil, "Optional", [ATLASLOOT_IT_HORDE] = 25620, [ATLASLOOT_IT_ALLIANCE] = 25619 },
+
 			},
 		},
 		{	--1-Handed Weapons

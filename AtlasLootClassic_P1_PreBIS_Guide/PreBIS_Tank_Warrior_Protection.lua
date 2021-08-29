@@ -175,7 +175,7 @@ data[ _FilePrefix ] ={
 				{2,30533, nil, nil, "Best Threat" },
 				{3,23518, nil, nil, "Optional" },
 				{4,27527, nil, nil, "Alternative" },
-				{5,28175, nil, nil, "Easy To Obtain" },
+				{5,28175, nil, nil, "Easy To Obtain", [ATLASLOOT_IT_ALLIANCE] = false, [ATLASLOOT_IT_HORDE] = true },
 				{6,29783, nil, nil, "Easy To Obtain" },
 			},
 		},

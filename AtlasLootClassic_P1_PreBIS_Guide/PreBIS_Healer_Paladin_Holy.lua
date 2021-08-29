@@ -147,7 +147,7 @@ data[ _FilePrefix ] = {
 				{2,29354, nil, nil, "Optional" },
 				{3,24254, nil, nil, "Optional" },
 				{4,29375, nil, nil, "Optional" },
-				{5,25805, "INV_BANNERPVP_02", nil, "Quest" },{20, 25810, "INV_BANNERPVP_01", nil, "Quest" }
+				{5, nil, nil, nil, "Quest", [ATLASLOOT_IT_HORDE] = 25810, [ATLASLOOT_IT_ALLIANCE] = 25805 },
 			},
 		},
 		{	--Chest
@@ -208,7 +208,7 @@ data[ _FilePrefix ] = {
 				{2,29251, nil, nil, "Optional" },
 				{3,28221, nil, nil, "Optional" },
 				{4,27549, nil, nil, "Optional" },
-				{5,25792, nil, nil, "Alliance Quest" },
+				{5,25792, nil, nil, "Alliance Quest", [ATLASLOOT_IT_ALLIANCE] = true, [ATLASLOOT_IT_HORDE] = false },
 			},
 		},
 		{	--Neck

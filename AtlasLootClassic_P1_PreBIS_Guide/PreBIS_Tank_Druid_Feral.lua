@@ -220,7 +220,7 @@ data[ _FilePrefix ] ={
 			name = "Neck",
 			[NORMAL_DIFF] = {
 				{1,29815, nil, nil, "Recommended Pre-raid" },
-				{2,28168, nil, nil, "Horde Recommended Pre-raid" },
+				{2,28168, nil, nil, "Horde Recommended Pre-raid", [ATLASLOOT_IT_ALLIANCE] = false, [ATLASLOOT_IT_HORDE] = true },
 				{3,29381, nil, nil, "BiS" },
 				{4,28244, nil, nil, "Alternative" },
 				{5,27779, nil, nil, "Alternative" },

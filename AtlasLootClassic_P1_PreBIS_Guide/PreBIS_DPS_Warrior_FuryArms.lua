@@ -124,7 +124,7 @@ data[ _FilePrefix ] ={
 				{1,33173, nil, nil, "Best" },
 				{2,27797, nil, nil, "Optional" },
 				{3,27434, nil, nil, "Optional" },
-				{4,25790, nil, nil, "Easy To Obtain" },
+				{4,25790, nil, nil, "Easy To Obtain", [ATLASLOOT_IT_ALLIANCE] = true, [ATLASLOOT_IT_HORDE] = false },
 			},
 		},
 		{	--Cloak

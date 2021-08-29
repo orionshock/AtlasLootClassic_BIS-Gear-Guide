@@ -101,7 +101,7 @@ data[ _FilePrefix ] ={
 		{	--Shoulders
 			name = "Shoulders",
 			[NORMAL_DIFF] = {
-				{1,25790, nil, nil, "Easy to Acquire, Alliance only" },
+				{1,25790, nil, nil, "Easy to Acquire, Alliance only", [ATLASLOOT_IT_ALLIANCE] = true, [ATLASLOOT_IT_HORDE] = false },
 				{2,27434, nil, nil, "Horde Alternative" },
 				{3,27776, nil, nil, "Horde Alternative" },
 				{4,27797, nil, nil, "BiS" },

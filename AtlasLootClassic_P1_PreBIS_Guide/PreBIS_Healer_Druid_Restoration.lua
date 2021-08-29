@@ -154,7 +154,7 @@ data[ _FilePrefix ] ={
 				{1,29506, nil, nil, "BiS" },
 				{2,31375, nil, nil, "Optional" },
 				{3,24393, nil, nil, "Optional" },
-				{4,25791, nil, nil, "Optional" },
+				{4,25791, nil, nil, "Optional", [ATLASLOOT_IT_ALLIANCE] = true, [ATLASLOOT_IT_HORDE] = false },
 				{5,28268, nil, nil, "Optional" },
 				{6,29327, nil, nil, "Optional" },
 			},
@@ -189,7 +189,7 @@ data[ _FilePrefix ] ={
 			[NORMAL_DIFF] = {
 				{1,27411, nil, nil, "BiS" },
 				{2,29251, nil, nil, "BiS" },
-				{3,25792, nil, nil, "BiS" },
+				{3,25792, nil, nil, "BiS", [ATLASLOOT_IT_ALLIANCE] = true, [ATLASLOOT_IT_HORDE] = false },
 				{4,31595, nil, nil, "PvP" },
 				{5,28251, nil, nil, "Optional" },
 				{6,27525, nil, nil, "Optional" },

@@ -127,7 +127,7 @@ data[ _FilePrefix ] ={
 				{1,24266, nil, nil, "Raid BiS" },
 				{2,24689, nil, nil, "of Shadow Wrath, +80 Shadow Damage" },
 				{3,28415, nil, nil, "Great" },
-				{4,28169, nil, nil, "Viable" },
+				{4,28169, nil, nil, "Viable", [ATLASLOOT_IT_ALLIANCE] = false, [ATLASLOOT_IT_HORDE] = true },
 				{5,31104, nil, nil, "Viable" },
 				{6,28193, nil, nil, "Viable" },
 				{7,28183, nil, nil, "Viable" },
@@ -253,7 +253,7 @@ data[ _FilePrefix ] ={
 				{6,29132, nil, nil, "Viable" },
 				{7,28223, nil, nil, "Viable" },
 				{8,26055, nil, nil, "Entry" },
-				{9,27922, "INV_BANNERPVP_02", nil, "Entry" },{ 24, 27924, "INV_BANNERPVP_01", nil, "Entry" }
+				{9, nil, nil, nil, "Entry", [ATLASLOOT_IT_HORDE] = 27922, [ATLASLOOT_IT_ALLIANCE] = 27924 },
 			},
 		},
 		{	--Main and Two–Handed Weaons
