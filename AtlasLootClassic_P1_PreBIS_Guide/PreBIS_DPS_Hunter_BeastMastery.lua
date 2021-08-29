@@ -253,7 +253,7 @@ data[ _FilePrefix ] ={
 				{6,31303, nil, nil, "Optional" },
 			},
 		},
-		{	--Quivers
+		{	--Quivers/Arros, Pouches/Ammo
 			name = "Quivers/Arros, Pouches/Ammo",
 			[NORMAL_DIFF] = {
 				{ 01, "INV_MISC_QUIVER_09", nil, "Quivers" },	{ 16, "INV_AMMO_ARROW_02", nil, "Arrows" },
