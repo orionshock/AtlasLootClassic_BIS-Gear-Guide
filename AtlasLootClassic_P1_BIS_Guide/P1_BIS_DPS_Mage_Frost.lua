@@ -108,7 +108,7 @@ data[ _FilePrefix ] ={
 				{4,28415, nil, nil, "Optional" },
 				{5,28278, nil, nil, "Optional" },
 				{6,28193, nil, nil, "Optional" },
-				{7,28169, nil, nil, "Optional" },
+				{7,28169, nil, nil, "Optional", [ATLASLOOT_IT_ALLIANCE] = false, [ATLASLOOT_IT_HORDE] = true },
 				{8,31104, nil, nil, "Easy to Obtain" },
 				{9,30515, nil, nil, "Easy to Obtain" },
 			}
@@ -280,8 +280,7 @@ data[ _FilePrefix ] ={
 				{10,29179, nil, nil, "Optional" },
 				{11,30340, nil, nil, "Easy to Obtain" },
 				{12,28040, nil, nil, "Easy to Obtain" },
-				{13,25620, nil, nil, "Easy to Obtain" },
-				{14,25619, nil, nil, "Easy to Obtain" },
+				{13, nil, nil, nil, "Optional", [ATLASLOOT_IT_HORDE] = 25620, [ATLASLOOT_IT_ALLIANCE] = 25619 },
 			},
 		},
 		{	--1H Wep

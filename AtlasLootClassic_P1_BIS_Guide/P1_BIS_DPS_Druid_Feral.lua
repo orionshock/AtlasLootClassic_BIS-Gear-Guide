@@ -118,7 +118,7 @@ data[ _FilePrefix ] ={
 			[NORMAL_DIFF] = {
 				{1,29100, nil, nil, "BiS" },
 				{2,27797, nil, nil, "Close Second" },
-				{3,25790, nil, nil, "Alliance Alternative" },
+				{3,25790, nil, nil, "Alliance Alternative", [ATLASLOOT_IT_ALLIANCE] = true, [ATLASLOOT_IT_HORDE] = false },
 				{4,28755, nil, nil, "Alternative" },
 				{5,27434, nil, nil, "Alternative" },
 			},

@@ -247,7 +247,7 @@ data[ _FilePrefix ] = {
 				{ 01, 30736, nil, nil, "BiS" },
 				{ 02, 28763, nil, nil, "BiS" },
 				{ 03, 28790, nil, nil, "Optional" },
-				{ 04, 29169, "INV_BANNERPVP_02", nil, "Optional" }, { 19, 29168, "INV_BANNERPVP_01", nil, "Optional" },
+				{ 04, nil, nil, nil, "Optional", [ATLASLOOT_IT_HORDE] = 29168, [ATLASLOOT_IT_ALLIANCE] = 29169 },
 				{ 05, 29290, nil, nil, "Optional" },
 				{ 06, 27780, nil, nil, "Optional" },
 			},

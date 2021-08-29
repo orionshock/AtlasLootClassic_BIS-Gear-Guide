@@ -223,7 +223,7 @@ data[ _FilePrefix ] = {
 		{	--Rings
 			name = "Rings",
 			[NORMAL_DIFF] = {
-				{1,29169, "INV_BANNERPVP_02", nil, "BiS"},{ 16, 29168, "INV_BANNERPVP_01", nil, "BiS" },
+				{1,nil, nil, nil, "Best in slot", [ATLASLOOT_IT_HORDE] = 29168, [ATLASLOOT_IT_ALLIANCE] = 29169 },
 				{2,27780, nil, nil, "BiS" },
 				{3,28259, nil, nil, "Optional" },
 				{4,31383, nil, nil, "Quest" },

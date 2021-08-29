@@ -275,8 +275,7 @@ data[ _FilePrefix ] ={
 				{11,28418, nil, nil, "Optional" },
 				{12,29179, nil, nil, "Optional" },
 				{13,28040, nil, nil, "Easy to Obtain" },
-				{14,25620, nil, nil, "Easy to Obtain" },
-				{15,25619, nil, nil, "Easy to Obtain" },
+				{14, nil, nil, nil, "Optional", [ATLASLOOT_IT_HORDE] = 25620, [ATLASLOOT_IT_ALLIANCE] = 25619 },
 			},
 		},
 		{	--1H Wep

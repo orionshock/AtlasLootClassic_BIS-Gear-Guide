@@ -112,7 +112,7 @@ data[ _FilePrefix ] ={
 			name = "Shoulders",
 			[NORMAL_DIFF] = {
 				{1,27801, nil, nil, "Best" },
-				{2,25790, nil, nil, "Optional" },
+				{2,25790, nil, nil, "Optional", [ATLASLOOT_IT_ALLIANCE] = true, [ATLASLOOT_IT_HORDE] = false },
 				{3,27797, nil, nil, "Optional" },
 				{4,27434, nil, nil, "Optional" },
 			},

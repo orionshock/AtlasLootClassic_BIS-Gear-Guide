@@ -311,9 +311,9 @@ data[ _FilePrefix ] = {
 		{
 			name = "1-Handed Weapons",
 			[NORMAL_DIFF] = {
-				{ 01, 29153, "INV_BANNERPVP_02", nil, "Alliance Best" },	{16, 29155, "INV_BANNERPVP_01", nil, "Horde Best" },
+				{ 01, nil, nil, nil, "Best", [ATLASLOOT_IT_HORDE] = 29155, [ATLASLOOT_IT_ALLIANCE] = 29153 },
 				{ 02, 30832, nil, nil, "Viable" },
-				{ 03, 29156, "INV_BANNERPVP_02", nil, "Alliance Viable - SoB" },	{18, 29165, "INV_BANNERPVP_01", nil, "Horde Viable - SoB" },
+				{ 03, nil, nil, nil, "Viable - SoB", [ATLASLOOT_IT_HORDE] = 29165, [ATLASLOOT_IT_ALLIANCE] = 29156 },
 				{ 04, 31336, nil, nil, "Viable" },
 				{ 05, 32660, nil, nil, "Viable" },
 				{ 06, 29185, nil, nil, "Viable" },

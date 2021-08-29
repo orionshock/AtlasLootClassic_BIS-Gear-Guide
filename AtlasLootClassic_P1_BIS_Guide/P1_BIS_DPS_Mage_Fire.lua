@@ -279,8 +279,7 @@ data[ _FilePrefix ] ={
 				{9,28418, nil, nil, "Optional" },
 				{10,29179, nil, nil, "Optional" },
 				{11,28040, nil, nil, "Easy to Obtain" },
-				{12,25620, nil, nil, "Easy to Obtain" },
-				{13,25619, nil, nil, "Easy to Obtain" },
+				{12, nil, nil, nil, "Optional", [ATLASLOOT_IT_HORDE] = 25620, [ATLASLOOT_IT_ALLIANCE] = 25619 },
 			},
 		},
 		{	--1-Handed Weapons

@@ -86,7 +86,7 @@ data[ _FilePrefix ] ={
 				{ 03, 27776 },	{ 18, 25686 },
 				{ 04, 31255 },	{ 19, 27925 },
 				{ 05, 24396 },	{ 20, 30834 },
-				{ 06, 28988 },	{ 21, 23041 },
+				{ 06, [ATLASLOOT_IT_HORDE] = 28424, [ATLASLOOT_IT_ALLIANCE] = 28988 },	{ 21, 23041 },
 				{ 07, 28396 },	{ 22, 28034 },
 				{ 09, 31334 },
 				{ 11, 28372 },
@@ -131,12 +131,11 @@ data[ _FilePrefix ] ={
 		{	--Wrist
 			name = "Wrist",
 			[NORMAL_DIFF] = {
-				{1,28988, nil, nil, "Easy to acquire" },
-				{2,28424, nil, nil, "Easy to acquire" },
-				{3,28171, nil, nil, "Over Hit" },
-				{4,29246, nil, nil, "BiS" },
-				{5,29527, nil, nil, "Alternative" },
-				{6,21602, nil, nil, "Alternative" },
+				{1, nil, nil, nil, "Easy to acquire", [ATLASLOOT_IT_HORDE] = 28424, [ATLASLOOT_IT_ALLIANCE] = 28988 },
+				{2,28171, nil, nil, "Over Hit" },
+				{3,29246, nil, nil, "BiS" },
+				{4,29527, nil, nil, "Alternative" },
+				{5,21602, nil, nil, "Alternative" },
 			},
 
 		},
@@ -177,8 +176,7 @@ data[ _FilePrefix ] ={
 				{2,31288, nil, nil, "Alternative" },
 				{3,29248, nil, nil, "Alternative" },
 				{4,30939, nil, nil, "Alternative" },
-				{5,28987, nil, nil, "Alternative" },
-				{6,28422, nil, nil, "Alternative" },
+				{5, nil, nil, nil, "Alternative", [ATLASLOOT_IT_HORDE] = 28422, [ATLASLOOT_IT_ALLIANCE] = 28987 },
 			},
 		},
 		{	--Neck
