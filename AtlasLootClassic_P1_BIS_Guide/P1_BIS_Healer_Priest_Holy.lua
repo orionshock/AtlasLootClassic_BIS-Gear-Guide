@@ -21,11 +21,10 @@ local el_Gems = {	--Extra List : Gems
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-        { 01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Meta Gem" },
-
-        { 04, "INV_MISC_GEM_01", nil, "Primary"},
-
-        { 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{ 01, "INV_MISC_DESECRATED_PLATEHELM", nil, "Meta Gem" },
+		{ 02, 32867 },	{17, 32765 },
+		{ 04, "INV_MISC_GEM_01", nil, "All Other Gems"},
+		{ 05, 31087 },
 	}
 }
 
@@ -34,10 +33,11 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 	ExtraList = true,
 	TableType = NORMAL_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Head Glyph"},
-
-		{ 04, "INV_MISC_DESECRATED_CLOTHSHOULDER", nil, "Shoulder Inscription"},
-
+		{ 01, "INV_MISC_DESECRATED_PLATEHELM", nil, "Head Glyph"},
+		{ 02, [ATLASLOOT_IT_HORDE] = 29190, [ATLASLOOT_IT_ALLIANCE] = 29189 },
+		{ 04, "INV_MISC_DESECRATED_PLATESHOULDER", nil, "Shoulder Inscription"},
+		{ 05, 28887, nil, nil, "Best - requires Exalted with The Aldor" },{20, 28912, nil, nil, "Alternate - Requires Exalted with Scryers"},
+		{ 06, 23547, nil, nil, "drops from Sapphiron in the Naxxramas raid" }
 	}
 }
 
@@ -46,18 +46,12 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
-
-		{ 16, "INV_MISC_DESECRATED_CLOTHCHEST", nil, "Chest" },
-
-		{ 04 , "INV_MISC_DESECRATED_CLOTHBRACER", nil, "Wrist" },
-
-		{ 08 , "INV_MISC_DESECRATED_CLOTHGLOVE", nil, "Hands" },
-
-		{ 11 , "INV_MISC_DESECRATED_CLOTHPANTS", nil, "Legs" },
-
-		{ 14 , "INV_MISC_DESECRATED_CLOTHBOOTS", nil, "Feet" },
-
+		{ 01 , "INV_MISC_CAPE_20", [4] = "Back" },	{16, "INV_MISC_DESECRATED_PLATECHEST", [4] = "Chest" },
+		{ 02, 27962 },	{17, 33991 },	
+		{ 04 , "INV_MISC_DESECRATED_PLATEBRACER", [4] = "Wrist" }, { 19 , "INV_MISC_DESECRATED_PLATEGLOVES", [4] = "Hands" },
+		{ 05, 27911 },	{ 20, 33999 },
+		{ 07 , "INV_MISC_DESECRATED_PLATEPANTS", [4] = "Legs" }, { 22 , "INV_MISC_DESECRATED_PLATEBOOTS", [4] = "Feet" },
+		{ 08, 31433 },	{ 23, 34008 },
 	},
 }
 
@@ -67,11 +61,11 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 1, "INV_JEWELRY_RING_23", nil, "Ring Enchant" },
-
-		{ 4, "INV_SWORD_65", nil, "Weapon Enchant"},
-
-		{ 7, "INV_SHIELD_30", nil, "Shield Enchant" },
-
+		{ 2, 27926 },
+		{ 4, "INV_SWORD_65", nil, "1-Handed Weapons"},
+		{ 5, 34010 },
+		{ 7, "INV_SHIELD_30", nil, "Shields" }, 
+		{ 8, 27945 },
 	},
 }
 

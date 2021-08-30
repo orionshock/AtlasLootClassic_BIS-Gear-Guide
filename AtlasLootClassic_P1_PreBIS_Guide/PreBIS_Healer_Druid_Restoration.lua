@@ -34,7 +34,7 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 	TableType = NORMAL_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_MISC_DESECRATED_LEATHERHELM", nil, "Head Glyph"},
-		{ 02, 29189 },
+		{ 02, [ATLASLOOT_IT_HORDE] = 29190, [ATLASLOOT_IT_ALLIANCE] = 29189 },
 		{ 04, "INV_MISC_DESECRATED_LEATHERSHOULDER", nil, "Shoulder Inscription"},
 		{ 05, 28887 },
 		{ 06, 23547 },	{ 21, 20078 },

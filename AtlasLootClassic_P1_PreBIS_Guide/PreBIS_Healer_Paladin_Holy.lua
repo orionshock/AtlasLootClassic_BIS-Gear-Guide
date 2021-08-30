@@ -34,7 +34,7 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 	TableType = NORMAL_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_MISC_DESECRATED_PLATEHELM", nil, "Head Glyph"},
-		{ 02, 29190, "INV_BANNERPVP_01"}, {17, 29189, "INV_BANNERPVP_02"},
+		{ 02, [ATLASLOOT_IT_HORDE] = 29190, [ATLASLOOT_IT_ALLIANCE] = 29189 },
 		{ 04, "INV_MISC_DESECRATED_PLATESHOULDER", nil, "Shoulder Inscription"},
 		{ 05, 28887, nil, nil, "Best - requires Exalted with The Aldor" },{20, 28912, nil, nil, "Alternate - Requires Exalted with Scryers"},
 		{ 06, 23547, nil, nil, "drops from Sapphiron in the Naxxramas raid" }
