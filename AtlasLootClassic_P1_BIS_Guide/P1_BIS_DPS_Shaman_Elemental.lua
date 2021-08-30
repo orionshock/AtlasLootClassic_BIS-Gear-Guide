@@ -21,11 +21,12 @@ local el_Gems = {	--Extra List : Gems
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-        { 01, "INV_MISC_DESECRATED_MAILHELM", nil, "Meta Gem" },
-
-        { 04, "INV_MISC_GEM_01", nil, "Primary"},
-
-        { 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{ 01, "INV_MISC_DESECRATED_MAILHELM", nil, "Meta Gem" },
+		{ 02, 44794 },	{ 17, 32766 },
+		{ 04, "INV_MISC_GEM_01", nil, "Primary"},
+		{ 05, 31088 },
+		{ 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{ 08, 31104 },	{ 23, 31107 },
 	}
 }
 
@@ -35,9 +36,9 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 	TableType = NORMAL_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_MISC_DESECRATED_MAILHELM", nil, "Head Glyph"},
-
+		{ 02, 29191 },
 		{ 04, "INV_MISC_DESECRATED_MAILSHOULDER", nil, "Shoulder Inscription"},
-
+		{ 05, 28886 },	{ 20, 28909 },
 	}
 }
 
@@ -46,18 +47,15 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
-		
-		{ 16, "INV_MISC_DESECRATED_MAILCHEST", nil, "Chest" },
-
-		{ 04 , "INV_MISC_DESECRATED_MAILBRACER", nil, "Wrist" },
-
-		{ 08 , "INV_MISC_DESECRATED_MAILGLOVE", nil, "Hands" },
-
-		{ 11 , "INV_MISC_DESECRATED_MAILPANTS", nil, "Legs" },
-
-		{ 14 , "INV_MISC_DESECRATED_MAILBOOTS", nil, "Feet" },
-
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
+		{ 02, 25084 },
+		{ 03, 34003, nil, nil, "PvP" },
+		{ 05, "INV_MISC_DESECRATED_MAILCHEST", nil, "Chest" },	{ 20 , "INV_MISC_DESECRATED_MAILBRACER", nil, "Wrist" },
+		{ 06, 27960 },	{ 21, 27917 },
+		{ 08 , "INV_MISC_DESECRATED_MAILPANTS", nil, "Legs" },	{ 23 , "INV_MISC_DESECRATED_MAILGLOVE", nil, "Hands" },
+		{ 09, 31432 },	{ 24, 33997 },
+		{ 11 , "INV_MISC_DESECRATED_MAILBOOTS", nil, "Feet" },
+		{ 12, 34008 },
 	},
 }
 
@@ -67,9 +65,11 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_JEWELRY_RING_23", nil, "Ring Enchant" },
-
+		{ 02, 27924 },
 		{ 04, "INV_SWORD_65", nil, "Weapon Enchant"},
-
+		{ 05, 27975 },
+		{ 07, "INV_SHIELD_30", nil, "Shield Enchant" },
+		{ 08, 27945 },
 	},
 }
 

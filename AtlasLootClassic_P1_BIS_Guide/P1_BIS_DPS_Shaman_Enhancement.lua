@@ -21,11 +21,13 @@ local el_Gems = {	--Extra List : Gems
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-        { 01, "INV_MISC_DESECRATED_MAILHELM", nil, "Meta Gem" },
-
-        { 04, "INV_MISC_GEM_01", nil, "Primary"},
-
-        { 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{ 01, "INV_MISC_DESECRATED_MAILHELM", nil, "Meta Gem" },
+		{ 02, 39961 },	{ 17, 32765 },
+		{ 04, "INV_MISC_GEM_01", nil, "Primary"},
+		{ 05, 31084 },	{ 20,  },
+		{ 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{ 08, 31102 },
+		{ 09, 31106 },
 	}
 }
 
@@ -35,9 +37,9 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 	TableType = NORMAL_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_MISC_DESECRATED_MAILHELM", nil, "Head Glyph"},
-
+		{ 02, 29192 },
 		{ 04, "INV_MISC_DESECRATED_MAILSHOULDER", nil, "Shoulder Inscription"},
-
+		{ 05, 28888 },	{ 20, 28910 },
 	}
 }
 
@@ -46,18 +48,14 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
-		
-		{ 16, "INV_MISC_DESECRATED_MAILCHEST", nil, "Chest" },
-
-		{ 04 , "INV_MISC_DESECRATED_MAILBRACER", nil, "Wrist" },
-
-		{ 08 , "INV_MISC_DESECRATED_MAILGLOVE", nil, "Hands" },
-
-		{ 11 , "INV_MISC_DESECRATED_MAILPANTS", nil, "Legs" },
-
-		{ 14 , "INV_MISC_DESECRATED_MAILBOOTS", nil, "Feet" },
-
+		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },
+		{ 02, 46505 },
+		{ 04, "INV_MISC_DESECRATED_MAILCHEST", nil, "Chest" },	{ 19 , "INV_MISC_DESECRATED_MAILBRACER", nil, "Wrist" },
+		{ 05, 27960 },	{ 20, 46493 },
+		{ 07 , "INV_MISC_DESECRATED_MAILPANTS", nil, "Legs" },	{ 22 , "INV_MISC_DESECRATED_MAILGLOVE", nil, "Hands" },
+		{ 08, 35554 },	{ 23, 46515 },
+		{ 10 , "INV_MISC_DESECRATED_MAILBOOTS", nil, "Feet" },
+		{ 11, 34007 },
 	},
 }
 
@@ -67,9 +65,9 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
 		{ 01, "INV_JEWELRY_RING_23", nil, "Ring Enchant" },
-
+		{ 02, 27927 },
 		{ 04, "INV_SWORD_65", nil, "Weapon Enchant"},
-
+		{ 05, 27984 },
 	},
 }
 
