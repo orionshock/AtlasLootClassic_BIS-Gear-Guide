@@ -4,12 +4,12 @@
 ## Dependencies: AtlasLootClassic
 ## LoadOnDemand: 1
 
-## Title: AtlasLootClassic |cFF0099FF[P1 PreBIS Guide from Wowhead]|r
+## Title: AtlasLootClassic |cFF0099FF[Pre Raid BIS based on Wowhead Guides]|r
 
 ## X-Category: Map
 ## X-License: GPL v2
 
 ## X-AtlasLootClassic-LootModule: 1
-## X-AtlasLootClassic-ModuleName: P1 PreBIS [Wowhead]
+## X-AtlasLootClassic-ModuleName: P1 PreBIS
 
 loader.xml
