@@ -22,6 +22,9 @@
 
 <Script file="PreBIS_DPS_Warrior_FuryArms.lua"/>
 
+<Script file="PreBIS_DPS_Shaman_Elemental.lua"/>
+<Script file="PreBIS_DPS_Shaman_Enhancement.lua"/>
+
 <Script file="PreBIS_Healer_Druid_Restoration.lua"/>
 <Script file="PreBIS_Healer_Paladin_Holy.lua"/>
 <Script file="PreBIS_Healer_Priest_Holy.lua"/>
