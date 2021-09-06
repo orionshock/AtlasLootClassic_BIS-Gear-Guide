@@ -28,14 +28,10 @@
 <Script file="PreBIS_Healer_Druid_Restoration.lua"/>
 <Script file="PreBIS_Healer_Paladin_Holy.lua"/>
 <Script file="PreBIS_Healer_Priest_Holy.lua"/>
+<Script file="PreBIS_Healer_Shaman_Restoration.lua"/>
 
 <Script file="PreBIS_Tank_Druid_Feral.lua"/>
 <Script file="PreBIS_Tank_Paladin_Protection.lua"/>
 <Script file="PreBIS_Tank_Warrior_Protection.lua"/>
-
-<Script file="PreBIS_DPS_Shaman_Elemental.lua"/>
-<Script file="PreBIS_DPS_Shaman_Enhancement.lua"/>
-<Script file="PreBIS_Healer_Shaman_Restoration.lua"/>
-
 
 </Ui>

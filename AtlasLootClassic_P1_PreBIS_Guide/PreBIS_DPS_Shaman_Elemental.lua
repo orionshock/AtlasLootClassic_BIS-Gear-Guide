@@ -73,7 +73,7 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	},
 }
 
-data[ _FilePrefix ] ={
+data[ _FilePrefix ] = {
 	name = _FilePrefix,
 	ContentType = roleType_DPS,
 	LoadDifficulty = LOAD_DIFF,

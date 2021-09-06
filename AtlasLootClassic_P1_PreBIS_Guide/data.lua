@@ -27,4 +27,3 @@ addonScope.PROF_ITTYPE = PROF_ITTYPE
 addonScope.roleType_Tank = roleType_Tank
 addonScope.roleType_Heal = roleType_Heal
 addonScope.roleType_DPS  = roleType_DPS 
-
