@@ -12,7 +12,7 @@ local roleType_Tank = addonScope.roleType_Tank
 local roleType_Heal = addonScope.roleType_Heal
 local roleType_DPS  = addonScope.roleType_DPS 
 
-local _FileRole = "ROLE"!
+local _FileRole = "Destruction"
 local _FileClass = "Warlock"
 local _FilePrefix = _FileRole.." ".._FileClass
 
@@ -21,11 +21,14 @@ local el_Gems = {	--Extra List : Gems
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-        { 01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Meta Gem" },
-
-        { 04, "INV_MISC_GEM_01", nil, "Primary"},
-
-        { 07, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Meta Gem" },
+		{02, 44794}, {17, 32766},
+		
+		{05, "INV_MISC_GEM_01", nil, "Primary"},
+		{06, 39470},
+		
+		{08, "INV_MISC_GEM_03", nil, "Meta Fit"},
+		{09, 31104},
 	}
 }
 
@@ -34,10 +37,13 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 	ExtraList = true,
 	TableType = NORMAL_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Head Glyph"},
-
-		{ 04, "INV_MISC_DESECRATED_CLOTHSHOULDER", nil, "Shoulder Inscription"},
-
+		{01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Head Glyph"},
+		{02, 29191 },
+		
+		{04, "INV_MISC_DESECRATED_CLOTHSHOULDER", nil, "Shoulder Inscription"},
+		{05, 23545 },
+		{06, 28886 },
+		{07, 28909 },
 	}
 }
 
@@ -46,18 +52,15 @@ local el_GearEnchants = {	--Extra List: Gear Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01 , "INV_MISC_CAPE_20", nil, "Back" },	
-		
-		{ 16, "INV_MISC_DESECRATED_CLOTHCHEST", nil, "Chest" },
-
-		{ 04 , "INV_MISC_DESECRATED_CLOTHBRACER", nil, "Wrist" },
-
-		{ 08 , "INV_MISC_DESECRATED_CLOTHGLOVE", nil, "Hands" },
-
-		{ 11 , "INV_MISC_DESECRATED_CLOTHPANTS", nil, "Legs" },
-
-		{ 14 , "INV_MISC_DESECRATED_CLOTHBOOTS", nil, "Feet" },
-
+		{01, "INV_MISC_CAPE_20", nil, "Back" },
+		{02, 25084 },
+		{04, "INV_MISC_DESECRATED_CLOTHCHEST", nil, "Chest" },{19, "INV_MISC_DESECRATED_CLOTHBRACER", nil, "Wrist" },
+		{05, 27960 },{20, 27917 },
+		{07, "INV_MISC_DESECRATED_CLOTHGLOVE", nil, "Hands" },{22, "INV_MISC_DESECRATED_CLOTHPANTS", nil, "Legs" },
+		{08, 33994 },{23, 31432 },
+		{09, 33997 },{24, 31430 },
+		{11, "INV_MISC_DESECRATED_CLOTHBOOTS", nil, "Feet" },
+		{12, 34008 },
 	},
 }
 
@@ -66,16 +69,16 @@ local el_offEnchants = {	--Extra List: Ring/Wep/Sheild Enchants
 	ExtraList = true,
 	TableType = PROF_ITTYPE,
 	[NORMAL_DIFF] = {
-		{ 01, "INV_JEWELRY_RING_23", nil, "Ring Enchant" },
-
-		{ 04, "INV_SWORD_65", nil, "Weapon Enchant"},
-
+		{01, "INV_JEWELRY_RING_23", nil, "Ring Enchant" },
+		{02, 27924 },
+		{04, "INV_SWORD_65", nil, "Weapon Enchant"},
+		{03, 46538 },
 	},
 }
 
 data[ _FilePrefix ] ={
 	name = _FilePrefix,
-	ContentType = <ReplaceME>,
+	ContentType = roleType_DPS,
 	LoadDifficulty = LOAD_DIFF,
 	TableType = NORMAL_ITTYPE,
 	gameVersion = 2,
