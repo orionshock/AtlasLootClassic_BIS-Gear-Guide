@@ -81,94 +81,159 @@ data[ _FilePrefix ] ={
 	gameVersion = 2,
 	items = {
 		{
-			name = "Set1",
+			name = "BIS Example Set",
 			[NORMAL_DIFF] = {
-
+				{ 01, 29035 },	{ 16, 29520 },
+				{ 02, 28762 },	{ 17, 24262 },
+				{ 03, 29037 },	{ 18, 28517 },
+				{ 04, 28797 },	{ 19, 30667 },
+				{ 05, 29519 },	{ 20, 28753 },
+				{ 06, 29521 },	{ 21, 28785 },
+				{ 07, 28780 },	{ 22, 29370 },
+				{ 09, 28770 },
+				{ 10, 29268 },
+				{ 11, 28248 },
 			}
 		},
 		{	--Head Slot
 			name = "Head",
 			[NORMAL_DIFF] = {
-
+				{1,29035, nil, nil, "Best in slot" },
+				{2,32086, nil, nil, "Great" },
+				{3,28415, nil, nil, "Great" },
+				{4,28278, nil, nil, "Great" },
+				{5,24266, nil, nil, "Great" },
+				{6,31330, nil, nil, "Great" },
+				{7,28583, nil, nil, "Great" },
 			}
 		},
 		{	--Shoulders
 			name = "Shoulders",
 			[NORMAL_DIFF] = {
-
+				{1,29037, nil, nil, "Best in slot" },
+				{2,32078, nil, nil, "Great" },
+				{3,30925, nil, nil, "Great" },
 			},
 		},
 		{	--Back
 			name = "Back",
 			[NORMAL_DIFF] = {
-
+				{1,28797, nil, nil, "Best in slot" },
+				{2,28766, nil, nil, "Great" },
+				{3,30735, nil, nil, "Great" },
 			},
 		},
 		{	--Chest
 			name = "Chest",
 			[NORMAL_DIFF] = {
-
+				{1,29519, nil, nil, "Best in slot" },
+				{2,29522, nil, nil, "Best in slot" },
+				{3,29033, nil, nil, "Great" },
+				{4,31340, nil, nil, "Great" },
 			},
 		},
 		{	--Wrist
 			name = "Wrist",
 			[NORMAL_DIFF] = {
-
+				{1,29521, nil, nil, "Best in slot" },
+				{2,29523, nil, nil, "Best in slot" },
+				{3,24250, nil, nil, "Great" },
+				{4,28638, nil, nil, "Great" },
 			},
 
 		},
 		{	--Hands
 			name = "Hands",
 			[NORMAL_DIFF] = {
-
+				{1,28780, nil, nil, "Best in slot" },
+				{2,28507, nil, nil, "Great" },
+				{3,29034, nil, nil, "Great" },
 			},
 		},
 		{	--Waist
 			name = "Waist",
 			[NORMAL_DIFF] = {
-
+				{1,29520, nil, nil, "Best in slot" },
+				{2,24256, nil, nil, "Best in slot" },
+				{3,29524, nil, nil, "Best in slot" },
+				{4,28799, nil, nil, "Great" },
 			},
 		},
 		{	--Legs
 			name = "Legs",
 			[NORMAL_DIFF] = {
-
+				{1,24262, nil, nil, "Best in slot" },
+				{2,30734, nil, nil, "Great" },
+				{3,30541, nil, nil, "Great" },
+				{4,nil, nil, nil, "Great", [ATLASLOOT_IT_HORDE] = 29141, [ATLASLOOT_IT_ALLIANCE] = 29142 },
 			},
 		},
 		{	--Feet
 			name = "Feet",
 			[NORMAL_DIFF] = {
-
+				{1,28517, nil, nil, "Best in slot" },
+				{2,28810, nil, nil, "Great" },
+				{3,28406, nil, nil, "Great" },
 			},
 		},
 		{	--Neck
 			name = "Neck",
 			[NORMAL_DIFF] = {
-
+				{1,28762, nil, nil, "Best in slot" },
+				{2,28530, nil, nil, "Great" },
+				{3,28134, nil, nil, "Great" },
 			},
 		},
 		{	--Rings
 			name = "Rings",
 			[NORMAL_DIFF] = {
-
+				{1,30667, nil, nil, "Best in slot" },
+				{2,28753, nil, nil, "Best in slot" },
+				{3,29287, nil, nil, "Great" },
+				{4,29126, nil, nil, "Great" },
+				{5,28227, nil, nil, "Great" },
+				{6,31290, nil, nil, "Great" },
 			},
 		},
 		{	--Trinkets
 			name = "Trinkets",
 			[NORMAL_DIFF] = {
-
+				{1,23207, nil, nil, "Special" },
+				{2,28785, nil, nil, "Best in slot" },
+				{3,29370, nil, nil, "Best in slot" },
+				{4,27683, nil, nil, "Great" },
+				{5,29179, nil, nil, "Great" },
+				{6,29132, nil, nil, "Great" },
+				{7,28418, nil, nil, "Great" },
+				{8,19379, nil, nil, "Great" },
 			},
 		},
-		{	--1-Handed Weapons
-			name = "1-Handed Weapons",
+		{	--Weapons
+			name = "Weapons",
 			[NORMAL_DIFF] = {
-
+				{1,30723, nil, nil, "Best in slot" },
+				{2,28770, nil, nil, "Best in slot" },
+				{3,32450, nil, nil, "Great" },
+				{4,23554, nil, nil, "Great" },
+				{5,30832, nil, nil, "Great" },
+			},
+		},
+		{
+			name = "Shields / Off-Hands",
+			[NORMAL_DIFF] ={
+				{1,29273, nil, nil, "Best in slot" },
+				{2,29268, nil, nil, "Best in slot" },
+				{3,28734, nil, nil, "Great" },
+				{4,23049, nil, nil, "Great" },
+				{5,28603, nil, nil, "Great" },
 			},
 		},
 		{	--Totems
 			name = "Totems",
 			[NORMAL_DIFF] = {
-
+				{1,28248, nil, nil, "Best in slot" },
+				{2,23199, nil, nil, "Great" },
+				{3,29389, nil, nil, "Great" },
 			},
 		},
 		el_Gems,
