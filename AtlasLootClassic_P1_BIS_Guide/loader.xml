@@ -30,4 +30,8 @@
 <Script file="P1_BIS_Tank_Paladin_Protection.lua"/>
 <Script file="P1_BIS_Tank_Warrior_Protection.lua"/>
 
+<Script file="P1_BIS_DPS_Shaman_Elemental.lua"/>
+<Script file="P1_BIS_DPS_Shaman_Enhancement.lua"/>
+<Script file="P1_BIS_Healer_Shaman_Restoration.lua"/>
+
 </Ui>
