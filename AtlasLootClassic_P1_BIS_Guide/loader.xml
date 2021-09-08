@@ -25,6 +25,10 @@
 <Script file="P1_BIS_DPS_Shaman_Elemental.lua"/>
 <Script file="P1_BIS_DPS_Shaman_Enhancement.lua"/>
 
+<Script file="PreBIS_DPS_Warlock_Affliction"/>
+<Script file="PreBIS_DPS_Warlock_Demonology"/>
+<Script file="PreBIS_DPS_Warlock_Destruction"/>
+
 <Script file="P1_BIS_Healer_Druid_Restoration.lua"/>
 <Script file="P1_BIS_Healer_Paladin_Holy.lua"/>
 <Script file="P1_BIS_Healer_Priest_Holy.lua"/>
