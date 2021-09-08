@@ -25,9 +25,9 @@
 <Script file="PreBIS_DPS_Shaman_Elemental.lua"/>
 <Script file="PreBIS_DPS_Shaman_Enhancement.lua"/>
 
-<Script file="PreBIS_DPS_Warlock_Affliction"/>
-<Script file="PreBIS_DPS_Warlock_Demonology"/>
-<Script file="PreBIS_DPS_Warlock_Destruction"/>
+<Script file="PreBIS_DPS_Warlock_Affliction.lua"/>
+<Script file="PreBIS_DPS_Warlock_Demonology.lua"/>
+<Script file="PreBIS_DPS_Warlock_Destruction.lua"/>
 
 <Script file="PreBIS_Healer_Druid_Restoration.lua"/>
 <Script file="PreBIS_Healer_Paladin_Holy.lua"/>
