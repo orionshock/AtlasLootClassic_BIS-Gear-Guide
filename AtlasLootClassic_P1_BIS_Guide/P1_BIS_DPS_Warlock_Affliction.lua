@@ -30,10 +30,8 @@ local el_Gems = {	--Extra List : Gems
 		{01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Meta Gem" },
 		{02, 44794, nil, nil, "As Affliction Ruin" }, {17, 32766},
 		{03, 32872, nil, nil, "As Unstable Affliction"},
-		
 		{05, "INV_MISC_GEM_01", nil, "Primary"},
-		{06, 39470},
-		
+		{06, 39470},		
 		{08, "INV_MISC_GEM_03", nil, "Meta Fit"},
 		{09, 31104},
 	}
@@ -45,8 +43,7 @@ local el_HeadShoulder = {	--Extra List: Shoulder Items
 	TableType = NORMAL_ITTYPE,
 	[NORMAL_DIFF] = {
 		{01, "INV_MISC_DESECRATED_CLOTHHELM", nil, "Head Glyph"},
-		{02, 29191 },
-		
+		{02, 29191 },		
 		{04, "INV_MISC_DESECRATED_CLOTHSHOULDER", nil, "Shoulder Inscription"},
 		{05, 23545 },
 		{06, 28886 },
