@@ -16,6 +16,12 @@ local _FileRole = "Affliction"
 local _FileClass = "Warlock"
 local _FilePrefix = _FileRole.." ".._FileClass
 
+local credits ={
+	url = "https://tbc.wowhead.com/guides/affliction-warlock-dps-karazhan-best-in-slot-gear-burning-crusade-classic-wow",
+	title = "Burning Crusade Classic Affliction Warlock DPS Best in Slot (BiS) Phase 1 Gear Guide",
+	author = "Zephan",
+}
+
 local el_Gems = {	--Extra List : Gems
 	name = "Gems",
 	ExtraList = true,
